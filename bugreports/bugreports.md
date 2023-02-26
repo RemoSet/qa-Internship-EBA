@@ -4,6 +4,24 @@ environment:
     
 ### bugreport ID 1 -----------------------------------------
     
+Синтаксическая ошибка в контенте.    
+    
+steps-to-reproduce:
+  - Перейти на главную страничку https://agency-eva.ru/
+  - Сменить заставку 
+ 
+expected-result:
+  - Кнопки должны иметь одинаковый размер.
+    
+actual-result:
+  - Кнопки имеют разный размер.
+    
+severity: __trivial__  
+comment: Ошибка изображена на скриншоте /images/ID 1/screen1.png
+  
+    
+### bugreport ID 2 -----------------------------------------
+    
 Ошибки в контенте.    
     
 steps-to-reproduce:
